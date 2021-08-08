@@ -1,0 +1,163 @@
+ *{
+	padding: 0;
+	margin:0;
+	border:0;
+}
+*,*:before, *:after{
+	moz-box-sizing:border-box;
+	webkit-box-sizing:border-box;
+	box-sizing: border-box;
+} 
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font: size: 14px;
+	ms-text-size-adjust: 100%;
+	moz-text-size-adjust:100%;
+	webkit-text-size-adjust:100%;
+}
+
+input,button, textarea{font-family: inherit;}
+input:: ms-clear{display:none;}
+a, a:visited{text-decoration:none;}
+a:hover{text-decoration: none}
+ul li {list-style: none;}
+img{vertical-align: top;}
+
+.arial{font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;}
+.fontsize30{
+	font: 30px;
+}
+
+body{
+	margin:0;
+	background: linear-gradient(90deg, rgba(9, 9, 121, 1) 2%, rgba(0, 212, 255, 1) 37%, rgba(2, 0, 36, 1) 98%);
+}
+
+.nav{
+display: flex;
+padding: 20px;
+font-size: 22px;
+align-items: center;
+background-color: red;
+word-spacing: 600px;
+justify-content: space-around;
+}
+
+.nav a:hover{
+	color:blue;
+}
+
+h1{
+	color:white;
+	margin: 10px;
+}
+
+.foot{
+	position: fixed;
+	bottom: 0;
+	background-color: black;
+	height: 60px;
+	width: 100%;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+}
+
+.zencode{
+	margin: 10px;
+}
+.post{
+	margin: 10px;
+	padding: 15px;
+	border: 1px solid white;
+	background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+	position: center;
+	text-align: center;
+	border-radius: 10px;
+}
+h3{
+	margin: 10px;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+}
+.LikeBtn{
+	display: border;
+	margin: 10px auto;
+	border-radius: 3px;
+	font: 13px Arial;
+	padding: 1px 6px;
+	border-width: 2px;
+	border-style: outset;
+	border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+	border-image: initial;
+}
+.LikeBtn:active {
+  background: blue;
+}
+
+.vidos{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.games{
+	display: flex;
+	margin: 30px;
+	padding: 30px;
+	font-size: 18px;
+	font: Arial;
+	color: white;
+	justify-content: center;
+	align-items: center
+
+}
+.memes{
+	display: flex;
+	margin: 30px;
+	font-size: 18px;
+	font: Arial;
+	color: rgb(118, 118, 118), rgb(133, 133, 133);
+	text-decoration-color: white;
+	justify-content: center;
+	align-items: center;
+	line-height: 10px;
+	word-wrap: break-all;
+	text-shadow: 10px;
+}
+.LikeMem{
+	display: border;
+	color: Red;
+	font-size: 18px;
+
+}
+
+.button{
+	display: border;
+	margin: 10px;
+	border-radius: 3px;
+	font: 13px Arial;
+	border-width: 2px;
+	border-style: none;
+	border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+	border-image: initial;
+}
+.zz{
+	display: fixed;
+	bottom: 0;
+	margin: 10px;
+	font-size: 18px;
+	color: black;
+	line-height: 30px;
+}
+.tabletor span{
+	margin-top: 30px;
+}
